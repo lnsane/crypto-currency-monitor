@@ -24,7 +24,7 @@ class Currency {
     // otherwise, keep decimals to the latest different number.
     let fixedIndex = 1;
     const priceStr = price.toString();
-    const startIndex = priceStr.indexOf('.') + 1;
+    const startIndex = priceStr.indexOf('.') + 5;
     // always true normally
     if (startIndex < priceStr.length) {
         let lastChar: string = priceStr[startIndex];
