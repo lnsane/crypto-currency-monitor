@@ -36,7 +36,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          yarn install -g node-gyp
+          yarn global add node-gyp
           
       - name: Install dependencies
         run: |
