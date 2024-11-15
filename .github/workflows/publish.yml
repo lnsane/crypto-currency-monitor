@@ -21,9 +21,13 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: 18
+          
       - name: Install dependencies
         run: |
           yarn global add node-gyp
+          
+      - name: Install dependencies
+        run: |
           yarn global add --production windows-build-tools@4.0.0
           
       - name: Install dependencies
