@@ -36,7 +36,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          yarn global add node-gyp
+          yarn global add windows-build-tools
           
       - name: Install dependencies
         run: |
