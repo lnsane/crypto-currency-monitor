@@ -28,7 +28,7 @@ jobs:
           
       - name: Install dependencies
         run: |
-          yarn global add --production windows-build-tools@4.0.0
+          yarn global add --production windows-build-tools
           
       - name: Install dependencies
         run: |
